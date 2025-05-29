@@ -1,0 +1,176 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  position: relative;
+  min-height: 100vh;
+  color: #333;
+}
+
+
+.background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url(../img/bandera.jpg); 
+  background-size: cover;
+  z-index: -1;
+}
+
+.titulo {
+margin: 0;
+font-size: 30px;
+flex-grow: 1;
+display: flex;
+justify-content: center;
+font-family: Arialblack;
+color: green;
+font-size: 50px;
+}
+
+header {
+  padding: 20px 30px;
+  display: center;
+  justify-content: center;
+  gap: 15px;
+  font-size: 50px;
+}
+
+
+.logo-italia {
+  width: 100px;
+}
+
+
+nav {
+  background-color: white ;
+  padding: 10px;
+  text-align: center;
+  justify-content: center;
+ gap: 20px;
+ border-radius: 5px;
+ align-items: center;
+}
+nav a {
+  color: black;
+  background-color: white;
+  padding: 10px;
+  text-decoration: none;
+  transition: 0.3s;
+  
+}
+
+nav a:hover {
+  background-color: #ddd; /* Gris claro al pasar el mouse */
+}
+
+nav a:active {
+  background-color: #aaa; /* Más oscuro al hacer clic */
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+margin-top: 10px;
+  
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 30px;
+  align-items: center;
+  justify-content: center;
+  font-family: Arial;
+
+}
+
+main {
+  padding: 40px 20px;
+}
+
+.recetas {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  flex-wrap: wrap;
+  border-radius: 8xp;
+  line-height: 1.6;
+  margin-bottom: 50xp;
+}
+
+h2 {
+  margin-top: 30xp;
+  margin-bottom: 15px;
+  font-size: 24xp;
+  letter-spacing: 1xp;
+}
+p{
+  margin-top: 30xp;
+  margin-bottom: 15px;
+  font-size: 24xp;
+  letter-spacing: 1xp;
+}
+h3 {
+  margin-top: 30xp;
+  margin-bottom: 15px;
+  font-size: 24xp;
+  letter-spacing: 1xp;
+}
+li {
+  margin-top: 30xp;
+  margin-bottom: 15px;
+  font-size: 24xp;
+  letter-spacing: 1xp;
+}
+
+
+.columna {
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 20px;
+  border-radius: 8px;
+  width: 45%;
+  min-width: 300px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+
+footer {
+  position: fixed;
+  bottom: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+  align-items: center;
+}
+
+
+.firma {
+  font-size: 14px;
+  color: #444;
+}
+
+.logo-uces {
+  width: 80px;
+}
+
+.fondo-cuadro {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  width: 45%;
+  min-width: 300px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+
